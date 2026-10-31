@@ -1,0 +1,71 @@
+{
+ "decks": 100,
+ "chudledee_guesses": 4,
+ "seed": 0,
+ "results": {
+  "lineup@0": {
+   "overlap": 0.12025,
+   "log_likelihood": -8.764933443261032
+  },
+  "chudledee@0": {
+   "overlap": 0.12516666666666668,
+   "log_likelihood": -8.75051996000342
+  },
+  "tournament@0": {
+   "overlap": 0.5964456063233614,
+   "log_likelihood": -3.872964954724935
+  },
+  "mix@0": {
+   "overlap": 0.3690869084906627,
+   "log_likelihood": -4.277837184197992
+  },
+  "lineup@3": {
+   "overlap": 0.10264027307454786,
+   "log_likelihood": -8.980494260974753
+  },
+  "chudledee@3": {
+   "overlap": 0.10712962962962963,
+   "log_likelihood": -8.989338199034849
+  },
+  "tournament@3": {
+   "overlap": 0.6328922902003217,
+   "log_likelihood": -3.6809341591162794
+  },
+  "mix@3": {
+   "overlap": 0.38038782821320277,
+   "log_likelihood": -4.162316406952769
+  },
+  "lineup@6": {
+   "overlap": 0.08820286699690341,
+   "log_likelihood": -9.115591642150868
+  },
+  "chudledee@6": {
+   "overlap": 0.09270833333333334,
+   "log_likelihood": -9.19118032738743
+  },
+  "tournament@6": {
+   "overlap": 0.6290544913563851,
+   "log_likelihood": -3.6619659689484845
+  },
+  "mix@6": {
+   "overlap": 0.37356605347598876,
+   "log_likelihood": -4.145645843466309
+  },
+  "lineup@10": {
+   "overlap": 0.07725315521011901,
+   "log_likelihood": -9.187036001003202
+  },
+  "chudledee@10": {
+   "overlap": 0.079625,
+   "log_likelihood": -9.497628504588343
+  },
+  "tournament@10": {
+   "overlap": 0.6010603309631504,
+   "log_likelihood": -3.574251568493961
+  },
+  "mix@10": {
+   "overlap": 0.35969880342126515,
+   "log_likelihood": -4.049371624579491
+  }
+ }
+}

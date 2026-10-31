@@ -1,0 +1,50 @@
+{
+ "_note": "Run folder -> released name. Combat runs: every 50-update milestone (update 0 is the network a run started from, so it is left out). Students: their final epoch. Chudledee: every saved checkpoint. Descriptions follow docs/training.md.",
+ "combat": [
+  {"run": "alpha_01", "name": "alpha 1", "idea": "PPO from scratch, first real run"},
+  {"run": "alpha_02", "name": "alpha 2", "idea": "small identity embeddings, speed reward, win output", "headline": {"40": "alpha 2.40: the first strong network; the NPC-fight reference and Chudledee v1's judge"}},
+  {"run": "beta_01", "name": "beta 1", "idea": "from alpha 2.40 with tournament and Chudledee decks"},
+  {"run": "beta_02", "name": "beta 2", "idea": "a bigger network"},
+  {"run": "beta_10", "name": "beta 10", "idea": "alpha 2.40 with the fine-tuning fix (entropy 0, lambda 0.8)", "headline": {"8": "beta 10.8: the NPC bot; reference for PvP tests and Chudledee v2/v3's judge"}},
+  {"run": "gamma_04", "name": "gamma 4", "idea": "bigger network, kickstarted from beta 10.8"},
+  {"run": "gamma_05", "name": "gamma 5", "idea": "bigger network, copied beta 10.8 first"},
+  {"run": "gamma_06", "name": "gamma 6", "idea": "review fixes and trying rare moves (a bug drifted it)"},
+  {"run": "gamma_07", "name": "gamma 7", "idea": "gamma 6 with the bug fixed"},
+  {"run": "gamma_08", "name": "gamma 8", "idea": "no speed reward"},
+  {"run": "gamma_09", "name": "gamma 9", "idea": "reward for HP dealt and kept"},
+  {"run": "delta_01", "name": "delta 1", "idea": "mostly tournament decks"},
+  {"run": "delta_02", "name": "delta 2", "idea": "human decks only"},
+  {"run": "delta_03", "name": "delta 3", "idea": "reward for playing cards"},
+  {"run": "delta_04", "name": "delta 4", "idea": "reward for playing cards"},
+  {"run": "delta_05", "name": "delta 5", "idea": "reward for playing events and resonances"},
+  {"run": "delta_06", "name": "delta 6", "idea": "reward for playing events and resonances"},
+  {"run": "delta_07", "name": "delta 7", "idea": "card rewards fading out"},
+  {"run": "delta_08", "name": "delta 8", "idea": "card rewards fading out"},
+  {"run": "eta_01", "name": "eta 1", "idea": "action previews as input"},
+  {"run": "eta_02", "name": "eta 2", "idea": "predicting the board a few decisions ahead"},
+  {"run": "eta_03", "name": "eta 3", "idea": "predicting the board a few decisions ahead"},
+  {"run": "eta_04", "name": "eta 4", "idea": "the opponent's replies to each move as input"},
+  {"run": "eta_05", "name": "eta 5", "idea": "card replies, danger after fast actions"},
+  {"run": "eta_06", "name": "eta 6", "idea": "learned reply selector"},
+  {"run": "eta_07", "name": "eta 7", "idea": "reply selector run continued", "headline": {"3": "eta 7.3: the best replies network before the PvP retrain"}},
+  {"run": "theta_01", "name": "theta 1", "idea": "PvP retrain with the full input set, tournament decks", "headline": {"13": "theta 1.13: the PvP bot (69.4% vs beta 10.8 on current tournament decks)"}}
+ ],
+ "students": [
+  {"run": "epsilon_01", "name": "epsilon 1", "idea": "copy the look-ahead's played move"},
+  {"run": "epsilon_02", "name": "epsilon 2", "idea": "copy the best-scoring move"},
+  {"run": "epsilon_03", "name": "epsilon 3", "idea": "label-rule variant (only overrides, lower rates, >=5% moves, soft targets)"},
+  {"run": "epsilon_04", "name": "epsilon 4", "idea": "label-rule variant"},
+  {"run": "epsilon_05", "name": "epsilon 5", "idea": "label-rule variant"},
+  {"run": "epsilon_06", "name": "epsilon 6", "idea": "label-rule variant"},
+  {"run": "epsilon_07", "name": "epsilon 7", "idea": "label-rule variant"},
+  {"run": "epsilon_08", "name": "epsilon 8", "idea": "label-rule variant"},
+  {"run": "epsilon_09", "name": "epsilon 9", "idea": "label-rule variant"},
+  {"run": "zeta_01", "name": "zeta 1", "idea": "copy the deep judge's best move"},
+  {"run": "zeta_02", "name": "zeta 2", "idea": "copy the deep judge's improved moves"}
+ ],
+ "chudledee": [
+  {"run": "chudledee_v1", "name": "chudledee v1", "idea": "deck builder judged by alpha 2.40"},
+  {"run": "chudledee_v2", "name": "chudledee v2", "idea": "from v1, judged by beta 10.8, real tournament decks among the opponents"},
+  {"run": "chudledee_v3", "name": "chudledee v3", "idea": "v2 plus 200 updates without the entropy bonus: stronger favourites"}
+ ]
+}

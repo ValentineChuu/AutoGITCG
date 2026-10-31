@@ -1,0 +1,168 @@
+{
+ "positions": 2148,
+ "every move had identical results (nothing to choose)": 250,
+ "positions with a choice": 1898,
+ "separated (best clearly ahead of every other move)": 548,
+ "deals: median / mean": [
+  512.0,
+  378
+ ],
+ "v2's top move is the best": "19.2%",
+ "v2's top move clearly worse than the best (2 standard errors)": "54.1%",
+ "HELD-OUT regret, win-chance points: v2's top move / v2 as it plays (sampled) / a random compared move": [
+  7.94,
+  7.78,
+  10.76
+ ],
+ "regret of v2's top move vs the measured best (inflated by luck): mean / median": [
+  8.52,
+  3.71
+ ],
+ "regret of v2's sampled move (as it plays)": 8.38,
+ "regret of a random compared move": 11.36,
+ "positions where v2's top move isn't the measured best": 1533,
+ "rank (by v2's probability) of the true best move": {
+  "0": 365,
+  "1": 280,
+  "2": 275,
+  "3": 270,
+  "4": 246,
+  "5": 236,
+  "6": 179,
+  "7": 43,
+  "8": 3,
+  "9": 1
+ },
+ "v2's clear mistakes, its kind -> best kind (count, mean points lost)": {
+  "elementalTuning -> playCard": [
+   117,
+   13.7
+  ],
+  "elementalTuning -> switchActive": [
+   114,
+   17.4
+  ],
+  "playCard -> playCard": [
+   96,
+   13.3
+  ],
+  "playCard -> switchActive": [
+   89,
+   17.9
+  ],
+  "useSkill -> playCard": [
+   73,
+   12.9
+  ],
+  "useSkill -> switchActive": [
+   54,
+   18.9
+  ],
+  "elementalTuning -> useSkill": [
+   54,
+   18.9
+  ],
+  "switchActive -> playCard": [
+   51,
+   11.5
+  ],
+  "playCard -> elementalTuning": [
+   46,
+   16.3
+  ],
+  "elementalTuning -> elementalTuning": [
+   40,
+   9.1
+  ],
+  "useSkill -> elementalTuning": [
+   36,
+   13.0
+  ],
+  "elementalTuning -> declareEnd": [
+   31,
+   16.1
+  ],
+  "playCard -> useSkill": [
+   30,
+   22.3
+  ],
+  "playCard -> declareEnd": [
+   30,
+   13.5
+  ],
+  "switchActive -> switchActive": [
+   29,
+   13.3
+  ],
+  "declareEnd -> switchActive": [
+   28,
+   16.4
+  ],
+  "useSkill -> useSkill": [
+   25,
+   15.8
+  ],
+  "declareEnd -> playCard": [
+   24,
+   8.8
+  ],
+  "switchActive -> declareEnd": [
+   24,
+   15.4
+  ],
+  "useSkill -> declareEnd": [
+   12,
+   9.3
+  ],
+  "switchActive -> elementalTuning": [
+   12,
+   11.2
+  ],
+  "switchActive -> useSkill": [
+   9,
+   14.6
+  ],
+  "declareEnd -> elementalTuning": [
+   3,
+   8.3
+  ]
+ },
+ "mean regret of v2's top move by round": {
+  "1": [
+   646,
+   7.48
+  ],
+  "2": [
+   537,
+   8.8
+  ],
+  "3": [
+   410,
+   9.58
+  ],
+  "4": [
+   191,
+   8.91
+  ],
+  "5": [
+   85,
+   6.44
+  ],
+  "6": [
+   19,
+   15.13
+  ],
+  "7": [
+   8,
+   18.22
+  ],
+  "8": [
+   1,
+   1.17
+  ],
+  "9": [
+   1,
+   5.47
+  ]
+ }
+}

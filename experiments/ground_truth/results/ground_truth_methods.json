@@ -1,0 +1,112 @@
+{
+ "v2's top move": {
+  "positions": 292,
+  "picked a move outside the compared ones": 0,
+  "picks the best": "19.9%",
+  "differs from v2's top move": "0.0%",
+  "held-out regret": 9.69,
+  "held-out regret, separated positions": 20.03
+ },
+ "v2's probabilities as scores": {
+  "positions": 292,
+  "picked a move outside the compared ones": 0,
+  "picks the best": "19.9%",
+  "differs from v2's top move": "0.0%",
+  "held-out regret": 9.69,
+  "held-out regret, separated positions": 20.03,
+  "pairwise accuracy on clearly different moves": "69.3% of 3649"
+ },
+ "a random compared move": {
+  "held-out regret": 12.01
+ },
+ "judge_win": {
+  "positions": 292,
+  "picked a move outside the compared ones": 20,
+  "picks the best": "19.5%",
+  "differs from v2's top move": "75.4%",
+  "held-out regret": 9.06,
+  "held-out regret, separated positions": 19.23,
+  "pairwise accuracy on clearly different moves": "61.1% of 3638"
+ },
+ "judge_value": {
+  "positions": 292,
+  "picked a move outside the compared ones": 17,
+  "picks the best": "20.7%",
+  "differs from v2's top move": "74.5%",
+  "held-out regret": 8.36,
+  "held-out regret, separated positions": 18.58,
+  "pairwise accuracy on clearly different moves": "64.2% of 3630"
+ },
+ "judge_win_own": {
+  "positions": 292,
+  "picked a move outside the compared ones": 19,
+  "picks the best": "19.8%",
+  "differs from v2's top move": "75.1%",
+  "held-out regret": 8.6,
+  "held-out regret, separated positions": 17.68,
+  "pairwise accuracy on clearly different moves": "67.4% of 3630"
+ },
+ "judge_value_own": {
+  "positions": 292,
+  "picked a move outside the compared ones": 13,
+  "picks the best": "20.4%",
+  "differs from v2's top move": "74.9%",
+  "held-out regret": 7.91,
+  "held-out regret, separated positions": 16.58,
+  "pairwise accuracy on clearly different moves": "68.0% of 3630"
+ },
+ "playtest_lookahead": {
+  "positions": 292,
+  "picked a move outside the compared ones": 0,
+  "picks the best": "25.0%",
+  "differs from v2's top move": "50.0%",
+  "held-out regret": 6.89,
+  "held-out regret, separated positions": 13.77,
+  "pairwise accuracy on clearly different moves": "63.3% of 723"
+ },
+ "playtest_lookahead_value_own": {
+  "positions": 292,
+  "picked a move outside the compared ones": 0,
+  "picks the best": "32.5%",
+  "differs from v2's top move": "43.8%",
+  "held-out regret": 5.13,
+  "held-out regret, separated positions": 11.48,
+  "pairwise accuracy on clearly different moves": "81.3% of 723"
+ },
+ "deep8_value_own": {
+  "positions": 292,
+  "picked a move outside the compared ones": 36,
+  "picks the best": "32.0%",
+  "differs from v2's top move": "80.9%",
+  "held-out regret": 6.02,
+  "held-out regret, separated positions": 10.84,
+  "pairwise accuracy on clearly different moves": "77.9% of 3630"
+ },
+ "round_value_own": {
+  "positions": 292,
+  "picked a move outside the compared ones": 29,
+  "picks the best": "38.0%",
+  "differs from v2's top move": "72.6%",
+  "held-out regret": 5.54,
+  "held-out regret, separated positions": 11.86,
+  "pairwise accuracy on clearly different moves": "80.8% of 3630"
+ },
+ "deep24_value_own": {
+  "positions": 292,
+  "picked a move outside the compared ones": 30,
+  "picks the best": "55.3%",
+  "differs from v2's top move": "82.8%",
+  "held-out regret": 1.82,
+  "held-out regret, separated positions": 3.2,
+  "pairwise accuracy on clearly different moves": "88.0% of 3630"
+ },
+ "tree64": {
+  "positions": 292,
+  "picked a move outside the compared ones": 0,
+  "picks the best": "25.0%",
+  "differs from v2's top move": "20.9%",
+  "held-out regret": 7.83,
+  "held-out regret, separated positions": 16.2,
+  "pairwise accuracy on clearly different moves": "55.6% of 412"
+ }
+}

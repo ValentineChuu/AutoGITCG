@@ -1,0 +1,155 @@
+{
+ "positions": 357,
+ "every move had identical results (nothing to choose)": 65,
+ "positions with a choice": 292,
+ "separated (best clearly ahead of every other move)": 98,
+ "deals: median / mean": [
+  512,
+  339
+ ],
+ "v2's top move is the best": "19.9%",
+ "v2's top move clearly worse than the best (2 standard errors)": "56.5%",
+ "HELD-OUT regret, win-chance points: v2's top move / v2 as it plays (sampled) / a random compared move": [
+  9.69,
+  9.57,
+  12.01
+ ],
+ "regret of v2's top move vs the measured best (inflated by luck): mean / median": [
+  10.08,
+  4.69
+ ],
+ "regret of v2's sampled move (as it plays)": 10.07,
+ "regret of a random compared move": 12.41,
+ "positions where v2's top move isn't the measured best": 234,
+ "rank (by v2's probability) of the true best move": {
+  "0": 58,
+  "1": 46,
+  "2": 45,
+  "3": 47,
+  "4": 36,
+  "5": 31,
+  "6": 21,
+  "7": 7,
+  "8": 1
+ },
+ "v2's clear mistakes, its kind -> best kind (count, mean points lost)": {
+  "elementalTuning -> switchActive": [
+   22,
+   20.2
+  ],
+  "elementalTuning -> playCard": [
+   17,
+   16.5
+  ],
+  "playCard -> switchActive": [
+   16,
+   19.8
+  ],
+  "playCard -> elementalTuning": [
+   13,
+   15.5
+  ],
+  "playCard -> playCard": [
+   13,
+   18.4
+  ],
+  "useSkill -> switchActive": [
+   9,
+   20.2
+  ],
+  "useSkill -> playCard": [
+   9,
+   13.2
+  ],
+  "useSkill -> elementalTuning": [
+   8,
+   12.0
+  ],
+  "elementalTuning -> useSkill": [
+   7,
+   17.9
+  ],
+  "useSkill -> useSkill": [
+   7,
+   18.0
+  ],
+  "switchActive -> playCard": [
+   6,
+   22.5
+  ],
+  "switchActive -> switchActive": [
+   6,
+   18.1
+  ],
+  "switchActive -> elementalTuning": [
+   5,
+   21.4
+  ],
+  "playCard -> declareEnd": [
+   5,
+   7.6
+  ],
+  "elementalTuning -> declareEnd": [
+   5,
+   18.6
+  ],
+  "elementalTuning -> elementalTuning": [
+   5,
+   9.5
+  ],
+  "switchActive -> declareEnd": [
+   4,
+   23.9
+  ],
+  "declareEnd -> switchActive": [
+   2,
+   14.5
+  ],
+  "declareEnd -> playCard": [
+   2,
+   8.9
+  ],
+  "playCard -> useSkill": [
+   2,
+   11.5
+  ],
+  "useSkill -> declareEnd": [
+   2,
+   9.6
+  ]
+ },
+ "mean regret of v2's top move by round": {
+  "1": [
+   102,
+   7.64
+  ],
+  "2": [
+   82,
+   13.03
+  ],
+  "3": [
+   64,
+   10.76
+  ],
+  "4": [
+   28,
+   10.41
+  ],
+  "5": [
+   10,
+   2.32
+  ],
+  "6": [
+   4,
+   9.72
+  ],
+  "7": [
+   1,
+   37.26
+  ],
+  "10": [
+   1,
+   15.43
+  ]
+ }
+}
